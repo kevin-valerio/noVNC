@@ -1943,4 +1943,8 @@ const UI = {
  */
 };
 
+// Local win7tv automation hook. This repo uses noVNC to bootstrap command
+// access on the Windows 7 host, including UAC dialogs.
+window.UI = UI;
+
 export default UI;
